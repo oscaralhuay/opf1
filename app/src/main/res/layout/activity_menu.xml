@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu">
+
+    <TextView
+        android:id="@+id/txt_titulo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BANCO OPF"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.137" />
+
+    <RadioGroup
+        android:layout_width="349dp"
+        android:layout_height="300dp"
+        android:layout_marginBottom="56dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.955">
+
+        <Button
+            android:id="@+id/buttonDP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="datos personales"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/buttonM"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="movimientos"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/buttonT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="transferencias"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/buttonPS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="pagos y servicios"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/buttonS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="salir"
+            android:textSize="24sp" />
+    </RadioGroup>
+
+</android.support.constraint.ConstraintLayout>
